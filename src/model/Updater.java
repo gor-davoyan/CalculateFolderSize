@@ -1,7 +1,5 @@
 package model;
 
-import model.FileSizeCounter;
-
 public class Updater implements Runnable {
     private FileSizeCounter fsc;
     private Thread t1;
